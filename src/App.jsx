@@ -1,12 +1,13 @@
 import { Component } from "react";
+import React, { Fragment } from "react";
 
 export class NavBar extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <h1>Hello</h1>
         <p>Paraghraph</p>
-      </div>
+      </React.Fragment>
     );
   }
 }
