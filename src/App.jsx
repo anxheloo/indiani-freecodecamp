@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React, { Fragment } from "react";
 
-export class NavBar extends Component {
+class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
@@ -11,3 +11,5 @@ export class NavBar extends Component {
     );
   }
 }
+
+export default NavBar;
