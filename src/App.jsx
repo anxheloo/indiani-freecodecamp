@@ -1,15 +1,16 @@
-import { Component } from "react";
-import React, { Fragment } from "react";
+import React, { Component } from "react";
+import NavBar from "./NavBar";
+import CustomersList from "./CustomersList";
+import ShoppingCart from "./ShoppingCart";
 
-class NavBar extends Component {
+export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Hello</h1>
-        <p>Paraghraph</p>
+        <NavBar></NavBar>
+        {/* <CustomersList></CustomersList> */}
+        <ShoppingCart></ShoppingCart>
       </React.Fragment>
     );
   }
 }
-
-export default NavBar;
